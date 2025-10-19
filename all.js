@@ -145,7 +145,12 @@ const allApp = document.getElementById("allApp");
 const lp = document.getElementById("lp");
 const target = document.getElementById("govno");
 const nav = document.querySelector(".nav");
-document.getElementById("govno").textContent = "";
+setTimeout(function() {
+    const finalElement = document.getElementById("govno");
+    if (finalElement) {
+        finalElement.textContent = "lazynotdead - rn14pro"; // Например
+    }
+}, 100);
 
 let currentOpeningBtn = null;
 let autoHideClickablesTimer = null;
