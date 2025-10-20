@@ -1,7 +1,7 @@
 // === Danh sách nhạc mặc định ===
 const musicList_music = [
   {
-    title: "HEADPHONK",
+    title: "Буду Жить Benzola",
     img: "originos_data/Music/headphonk.png",
     src: "originos_data/Music/phonk/HEADPHONK - phonk.mp3",
   },
@@ -259,3 +259,4 @@ phone.addEventListener("click", clickSound);
 function clickSound() {
   playmusic("originos_data/ui/Effect_Tick.ogg", volume_click_volume);
 }
+
