@@ -6,7 +6,7 @@ const musicList_music = [
     src: "originos_data/Music/phonk/HEADPHONK - phonk.mp3",
   },
   {
-    title: "Dark Heart",
+    title: "foreign lungskull",
     img: "originos_data/Music/dark_heart.png",
     src: "originos_data/Music/ambient/Dark Heart - ambient.mp3",
   },
@@ -259,4 +259,5 @@ phone.addEventListener("click", clickSound);
 function clickSound() {
   playmusic("originos_data/ui/Effect_Tick.ogg", volume_click_volume);
 }
+
 
